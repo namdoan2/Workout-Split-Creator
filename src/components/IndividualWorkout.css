@@ -1,0 +1,13 @@
+.single-workout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    height: 24px;
+}
+
+.single-workout select{
+    width: 36px;
+    height: 22px;
+    
+}

@@ -1,0 +1,85 @@
+
+.workout-select {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin: 4px 2px;
+}
+
+select {
+    height: 25px;
+    margin: 0px 10px;
+}
+
+.workouts .input-h3{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 50%;
+    margin: 0 2px;
+}
+
+
+.workouts .notes {
+    border: 1px solid black;
+    display: block;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 2px;
+    overflow: hidden;
+}
+
+.workouts {
+    display: flex;
+}
+
+textarea {
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 45px;
+}
+
+.workouts .input-button {
+    text-align: center;
+}
+
+.workouts h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.workouts input{
+    padding: 2px 5px;
+    border: 2px solid black;
+}
+
+.workouts button{
+    padding: 2px 5px;
+}
+
+@media all and (max-width: 680px) {
+    .workouts {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .workouts .input-h3 {
+        width: 93%;
+        margin-bottom: 2px;
+    }
+
+    .workouts .notes {
+        width: 93%;
+        margin-top: 2px;
+    }
+
+    .workout-select {
+        margin: 4px 3px;
+    }
+}
